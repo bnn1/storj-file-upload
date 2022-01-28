@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.ts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uplink-nodejs": "^1.2.6",
+    "ws": "^8.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/nodemon": "^1.19.1",
+    "@types/ws": "^8.2.2",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
